@@ -1,0 +1,285 @@
+body{
+    background-color: #fefefe;
+    background-image:  radial-gradient(#000 0.7000000000000001px, transparent 0.7000000000000001px), radial-gradient(#000 0.7000000000000001px, #fefefe 0.7000000000000001px);
+    background-size: 28px 28px;
+    background-position: 0 0,14px 14px;
+}
+#navigation{
+    background-color: #333;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+}
+.nav-button{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.nav-button:hover{
+    background-color: greenyellow;
+}
+.nav-link{
+    font-size: 1.5em;
+    font-family: 'Potta One', cursive;
+    color: black;
+}
+.nav-link:hover{
+    text-decoration: none;
+    colour: white;
+}
+#navigation{
+    height: 100px;
+}
+.nav-item{
+    color: white;
+}
+#brand{
+    font-family: 'Potta One', cursive;
+    font-size: 40px;
+    color: white;
+    padding-top: 35px;
+}
+#brand:hover{
+    color: greenyellow;
+}
+#navbarNav{
+    float:right;
+    text-decoration: none;
+}
+#navlist{
+    vertical-align: middle;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+button{
+    height: 40px;
+    width: 150px;
+}
+.navbox{
+    list-style-type: none;
+    float:right;
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.foot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; height: 100px;
+    background-color: red;
+    font-size: 1.1em; font-weight: bold;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+#link{
+    text-decoration: none;
+    color: white;
+    padding-top: 25px;
+    font-size:1.3em;
+}
+#link:hover{
+    color: greenyellow;
+    text-decoration: none;
+}
+#img{
+    height: 200px;
+    background: url('https://iclg.com/uploads/pages/images/hfw-announces-collaboration-with-legal-tech-start-up_0_JntX6San0cR6LstRnSom01UqJg6SLTfXS2m5ZqjJ.jpeg') no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.quote{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding:25px;
+    font-size: 1.3em; font-weight: bolder;
+    vertical-align: middle;
+    font-family: 'Sacramento', cursive;
+}
+.tiles{
+    font-size: 1.2em;
+    font-family: 'Potta One', cursive;
+    border: 2px black;
+}
+#img span{
+    text-align: center;
+    font-size: 2em;
+    height: 200px;
+    font-weight: bolder;
+    color: #000;
+    opacity: 90%;
+}
+#users{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMS1kjBcNKMCrF_NbODlDs34TE4xCLCxCbeQ&usqp=CAU')no-repeat;
+    background-position: center;
+    background-size: 356px 280px;
+}
+#transfer{
+    background: url('https://images.unsplash.com/photo-1561414927-6d86591d0c4f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60')no-repeat;
+    background-position: center;
+    background-size: 356px 256px;
+}
+#history{
+    background: url('https://media.gettyimages.com/photos/pixelated-rupee-sign-in-sky-picture-id594829199?k=6&m=594829199&s=612x612&w=0&h=fA5GyxbF6aq4KhOHrhvjvmpYhhnhPVHB5NXqyFvI__M=')no-repeat;
+    background-position: center;
+    background-size: 356px 280px; 
+}
+#users, #transfer, #history{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+}
+#users span, #transfer span, #history span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    /*background-color: #fff;*/
+    background-color: whitesmoke;
+    font-weight: bolder;
+    color: #000;
+    opacity: 80%;
+}
+
+.panel-footer{
+	background: #333;
+	margin-top: 15px;
+	padding:15px 0;
+	font-family: 'Oxygen', sans-serif;
+        height: 100px;
+}
+.panel-footer div{
+	font-weight: bold;
+	text-align: center;
+        font-weight: bolder;
+}
+#footeee{
+    top: 650px;
+}
+
+
+
+/*-------------------------Users-----------------------------*/
+.top-box{
+    height: 50px;
+    padding-top: 15px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Stalinist One', cursive;
+    font-size: 1.3em;
+    background: greenyellow;
+    font-weight: bold;
+}
+.table-con{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Potta One', cursive;
+}
+
+/*-------------------------transaction.php-----------------------------*/
+.transact-btn{
+    text-align: center;
+    margin-left: 60px;
+    margin-top: -15px;
+    color: black;
+    font-size: 1.3em;
+    font-family: 'Potta One', cursive;
+}
+.btn{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.btn:hover{
+    background: greenyellow;
+}
+
+
+/*-------------------------receiver.php-----------------------------*/
+.from{
+    font-family: 'Stalinist One', cursive;
+    font-size: 2em;
+}
+#selection, .send-det{
+    height:50px;
+    font-family: 'Potta One', cursive;
+    font-size: 1.5em;
+    /*font-weight: bold;*/
+    /**/
+}
+#selection:hover{
+    background-color: greenyellow;
+}
+#amnt{
+    width:20%;
+}
+#input-style{
+    font-size: 1.5em;
+    height: 50px;
+    font-family: 'Potta One', cursive;
+    text-align: center;
+}
+#myBtn{
+    height: 50px;
+    width: 273px;
+    font-family: 'Stalinist One', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: greenyellow;
+}
+#myBtn:hover{
+    background-color: #FF3300;
+    color: white;
+}
+
+/*-----------------------------------------large devices----------------------------------------*/
+@media(min-width: 1200px){
+    #nav-button{
+        
+    }
+}
+
+/*-----------------------------------------Medium devices----------------------------------------*/
+@media(min-width: 992px) and (max-width: 1199px){
+    #brand{
+        font-size: 2.5em;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+    }
+}
+
+/*-----------------------------------------Small devices----------------------------------------*/
+@media(min-width: 768px) and (max-width: 991px){
+    #brand{
+        font-size: 1.8em;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+    }
+}
+
+/*-----------------------------------------X-small devices----------------------------------------*/
+@media(max-width: 767px){
+    #brand{
+        font-size: 1.2em;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+    }
+}
+
+/* XX small devices */
+@media (max-width: 492px){
+    #brand{
+        font-size: 1.2em;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+    }
+}
